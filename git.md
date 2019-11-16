@@ -6,20 +6,20 @@
 git config --global user.name jacky  
 git config --global user.eamil jacky@qq.com
 
-#查看git配置信息
+2. 查看git配置信息  
 git config -l
 
-# 创建一个目录，作为git仓库 
+3. 创建一个目录，作为git仓库  
 mkdir <directory> 
 cd <directory> 
 
-# 在当前目录新建一个git仓库
-git init
-# 或者
-git init <directory>
+4. 在当前目录新建一个git仓库  
+git init  
+**或者**  
+git init <directory>  
 
 
-#克隆项目至当前目录
+5. 克隆项目至当前目录  
 git clone <repo>
 
 #克隆项目至指定目录
