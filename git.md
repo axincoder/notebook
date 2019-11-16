@@ -1,6 +1,6 @@
 # 文档内容：git操作的说明
 
-***  工作区(红色, work)----> 暂存区(绿色, stage or index)----->  版本库 ***
+**工作区(红色, work)----> 暂存区(绿色, stage or index)----->  版本库**
 
 1. 配置git用户名和电子邮件  
 git config --global user.name jacky  
