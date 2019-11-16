@@ -10,7 +10,7 @@ git config --global user.eamil jacky@qq.com
 git config -l
 
 3. 创建一个目录，作为git仓库  
-mkdir < directory > 
+mkdir < directory >   
 cd < directory > 
 
 4. 在当前目录新建一个git仓库  
