@@ -10,19 +10,19 @@ git config --global user.eamil jacky@qq.com
 git config -l
 
 3. 创建一个目录，作为git仓库  
-mkdir <directory> 
-cd <directory> 
+mkdir < directory > 
+cd < directory > 
 
 4. 在当前目录新建一个git仓库  
 git init  
 **或者**  
-git init <directory>  
+git init < directory >  
 
 5. 克隆项目至当前目录  
-git clone <repo>
+git clone < repo >
 
 6. 克隆项目至指定目录  
-git clone <repo>  <direcotry>  
+git clone < repo >  < direcotry >  
 
 7. 添加文件到git暂存区(stage index)  
 git add filename
@@ -43,8 +43,8 @@ git status -s
 
 
 11. 删除文件  
-git rm <filename>  
-git commit <filename> -m "删除文件filename"
+git rm < filename >  
+git commit < filename > -m "删除文件filename"
 
 
 12. 将本地仓库推到云端仓库  
@@ -58,12 +58,12 @@ git push 别名名称 marster
 git reset HEAD  
 
 13. 将暂存区的文件覆盖工作区(危险操作，工作区将被暂存区覆盖)  
-git checkout <filename>     #覆盖单个文件  
+git checkout < filename >     #覆盖单个文件  
 git checkout .              #覆盖整个目录  
 
 
 14. 将版本库的文件覆盖工作区(危险操作，工作区将被版本库覆盖)  
-git checkout HEAD <filename>      #覆盖单个文件  
+git checkout HEAD < filename >      #覆盖单个文件  
 git checkout HEAD .             #覆盖整个目录  
 
 
@@ -74,7 +74,7 @@ git log --oneline           #简洁版本
 
 
 16. 查看指定用户提交的历史记录  
-git log --author <username>
+git log --author < username >
 
 17. 本地git仓库，与远程git仓库（如github就是一个典型了远程git仓库）的操作  
 **因为本地与远程git文件传输是SSH加密的，因此先配置SSH信息**  
