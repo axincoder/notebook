@@ -136,3 +136,7 @@ git push -u origin master
 
 20. 如何首次从github上面获取项目  
 git clone https://......git      (so easy!)
+
+
+21. 比较本地仓库与远程仓库的差异  
+git diff --stat master origin/master  
