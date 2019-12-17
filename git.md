@@ -128,7 +128,7 @@ git init
 git remote add **   https://****.git
 
 * 6、同步本地和远程项目:   
-git pull --rebase origin master     (别忘记哦)
+git pull --rebase origin master     (别忘记哦,如果远程仓库为空的话，则该步骤可以省略)
 
 * 7、提交本地项目到远程：  
 git push -u origin master
