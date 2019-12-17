@@ -24,5 +24,13 @@ ls -l |grep -v total |awk 'BEGIN {max=0} {if($5>max) max=$5} END {print "max=", 
 ls -l |grep -v total | awk 'BEGIN {min=19999999} {if($5<min) min=$5} END {print "min=", min}'
 ```
 
+* AWK排序  
+```
+ls -l |grep -v total |awk '{print $5 | "sort -n"}'        #按照数字从小到大排序
+
+
+ls -l |grep -v total |awk '{print $5 | "sort -r -n"}'        #按照数字从大到小排序
+```
+
 
 
